@@ -39,27 +39,17 @@ main {
 }
 
 section {
-  /* display: flex;
-  width: 80%; 
-  margin: 1rem auto;
-  padding: 15px;
-  background-color: pink;
-  border-radius: 5px;
-  transition: all 0.3s;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;  */
-
   width: 100%;
   margin: 1rem auto;
   max-width: 1140px;
-  max-height: 640px;
+  max-height: 610px;
   padding: 6rem 4rem;
   display: flex;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.375);
   box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.148);
-  border-radius: 2rem;
+  border-radius: 2.5rem;
   border: 1px solid rgba(255, 255, 255, 0.125);
-  align-content: space-between;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 17px 17px 34px #bababa, -17px -17px 34px #ffffff;
 }
 section:hover {
   transform: scale(1.03);
@@ -114,4 +104,3 @@ a:active {
 
 img:active {
 }
-
